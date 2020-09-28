@@ -1,0 +1,12 @@
+* {
+font-style: italic;
+background-image: url(british.webp);
+}
+
+p {
+display: flex;
+justify-content: center;
+text-align: center;
+font-family: 'Times New Roman', Times, serif;
+font-size: large;
+}
