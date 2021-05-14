@@ -4,6 +4,10 @@
     margin: 0;
 }
 
+header {
+    max-width: 1920px;
+}
+
 h1 {
   font-family: 'Times New Roman', Times, serif;
   font-size: 64px;
@@ -23,25 +27,7 @@ h2 {
     padding: 40px;
 }
 
-.borders {
-    border-style: ridge;
-    border-color: black;
-    padding: 50px;
-    max-width: 1920px;
-    max-height: 1080px;
-    margin: 0 auto;
-}
 
-.borders2 {
-    border-style: ridge;
-    border-color: black;
-    padding: 50px;
-    width: auto;
-    height: 1080px;
-    margin: 0 auto;
-    background-image: url(fizz1.jpg);
-    background-size: cover;    
-}
 
 a {
     color: black;
@@ -50,18 +36,14 @@ a {
 }
 
 a:hover {
-    color: 59,106,124;
+    color: orangered;
     text-decoration: none;
     cursor: pointer;
 }
 
-td {
-    text-align: justify;
-    max-width: 500px;
-    margin: 275px;
-}
 
 footer {
+    max-width: 1920px;
     text-align: center;
     text-decoration-color: white;
     background-color: black;
@@ -84,6 +66,12 @@ p {
 .box {
     width: 500px;
     height: 500px;
+}
+
+#hemsida {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 
